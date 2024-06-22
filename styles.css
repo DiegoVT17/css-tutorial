@@ -1,0 +1,47 @@
+* {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#title {
+    font-size: 2.5rem;
+    font-style: italic;
+    text-align: center;
+    color: #bc5a94;
+}
+
+div {
+    color: brown;
+}
+
+.alert-text {
+    color: #f51d1d;
+}
+
+.read,
+.unread {
+    color: #9252ce;
+    background-color: black;
+}
+
+.read {
+    font-style: italic;
+}
+
+.unread {
+    text-transform: uppercase;
+}
+
+.subsection {
+    color: #ffbf00;
+    text-align: end;
+}
+
+.subsection.header {
+    font-size: 2rem;
+}
+
+.haunter {
+    width: 600px;
+    height: auto;
+}
