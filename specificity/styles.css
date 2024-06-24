@@ -1,0 +1,40 @@
+* {
+    color: black;
+}
+
+.subsection {
+    color: blue;
+}
+
+/* id selector is even more specific, id beats class */
+#subsection {
+    background-color: greenyellow;
+    color: blue;
+}
+
+/* this rule is more specific, it is using more class selectors */
+.main .list {
+    color: red;
+}
+
+/* again, this rule has more specificity because is using a class selector in adiction to the id selector */
+/* background color would still be applied since there is no conflicting declaration for it */
+.main #subsection {
+    color: red;
+}
+
+#parent {
+    color: aquamarine;
+}
+
+.child {
+    color: blueviolet;
+}
+
+.alert {
+    color: coral;
+}
+
+.warning {
+    color: darkmagenta;
+}
