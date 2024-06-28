@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.box-1,
+.box-2 {
+    background-color: rgb(208, 110, 110);
+}
+
+.box-1 {
+    box-sizing: content-box;
+    width: 700px;
+    height: 300px;
+    padding: 50px;
+    border: 30px solid black;
+    margin-bottom: 50px;
+}
+
+.box-2 {
+    box-sizing: border-box;
+    width: 700px;
+    height: 300px;
+    padding: 50px;
+    border: 30px solid black;
+}
